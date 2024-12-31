@@ -8,6 +8,16 @@ variable "project" {
   default = "project"
 }
 
+variable "auth_method" {
+  type = string
+  default = "password"
+}
+
+variable "username" {
+  type = string
+  default = "authorizedforvdi"
+}
+
 variable "egress_worker_filter" {
   type = string
   default = "\"egress\" in \"/tags/type\""

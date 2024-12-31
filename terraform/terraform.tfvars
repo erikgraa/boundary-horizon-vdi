@@ -1,0 +1,6 @@
+organization             = "graa"
+project                  = "dev"
+auth_method              = "password"
+horizon_vdi_host_name    = "uag1.dev.graa"
+horizon_vdi_host_address = "10.0.0.225"
+horizon_vdi_fqdn         = "vdi.dev.graa"
